@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "3A4397F1CAF740F86C5CB4BB87D78CE0",
+  "keywordClasses": [
+    {
+      "name": "com.ea.utilities.SearchItem",
+      "keywordMethods": [
+        {
+          "name": "searchItem",
+          "parameters": [
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

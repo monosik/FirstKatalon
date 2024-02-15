@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as Keys
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('https://magento.softwaretestingboard.com/')
 
@@ -24,4 +24,11 @@ CustomKeywords.'com.ea.utilities.SearchItem.searchItem'('Jacket')
 
 CustomKeywords.'com.ea.utilities.VerifyItemSearch.verifyItemSearch'()
 
+CustomKeywords.'com.ea.utilities.SelectSortBy.selectSortBy'('Price')
+
+WebUI.click(findTestObject('Object Repository/Search_Results_Page/Ascending_Icon'))
+
+CustomKeywords.'com.ea.utilities.VerifyAscendingPrice.verifyAscendingPrice'()
+
 WebUI.closeBrowser()
+

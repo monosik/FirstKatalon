@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "9D7B2665EE8192290800D0732764E57E",
+  "keywordClasses": [
+    {
+      "name": "com.ea.utilities.VerifyDescendingPrice",
+      "keywordMethods": [
+        {
+          "name": "verifyDescendingPrice",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
