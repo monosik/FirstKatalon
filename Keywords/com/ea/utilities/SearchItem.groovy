@@ -1,27 +1,32 @@
+package com.ea.utilities
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as Keys
 
-WebUI.openBrowser('https://magento.softwaretestingboard.com/')
+import internal.GlobalVariable
 
-CustomKeywords.'com.ea.utilities.SearchItem.searchItem'('Jacket')
+public class SearchItem {
+	@Keyword
+	def searchItem(String value) {
 
-CustomKeywords.'com.ea.utilities.VerifyItemSearch.verifyItemSearch'()
+		WebUI.waitForElementPresent(findTestObject('Home_Page/Search_Textbox'), 1)
 
-WebUI.closeBrowser()
+		WebUI.sendKeys(findTestObject('Home_Page/Search_Textbox'), value)
+
+		WebUI.click(findTestObject('Object Repository/Home_Page/Search_Button'))
+	}
+}

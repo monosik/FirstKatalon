@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "13AC08E7D6F65ED079F2BD591A15C680",
+  "keywordClasses": [
+    {
+      "name": "com.ea.utilities.VerifyAscendingPrice",
+      "keywordMethods": [
+        {
+          "name": "verifyAscendingPrice",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

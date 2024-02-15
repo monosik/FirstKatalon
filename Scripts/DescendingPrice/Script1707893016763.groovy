@@ -19,8 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://magento.softwaretestingboard.com/')
 
-WebUI.waitForElementPresent(findTestObject('Page_Home Page/Search_Textbox'), 1)
+CustomKeywords.'com.ea.utilities.SearchItem.searchItem'('Jacket')
 
-WebUI.sendKeys(findTestObject('Page_Home Page/Search_Textbox'), 'Jacket')
+CustomKeywords.'com.ea.utilities.VerifyItemSearch.verifyItemSearch'()
 
-WebUI.click(findTestObject('Object Repository/Page_Home Page/Search_Button'))
+CustomKeywords.'com.ea.utilities.SelectSortBy.selectSortBy'('Price')
+
+CustomKeywords.'com.ea.utilities.VerifyDescendingPrice.verifyDescendingPrice'()
+
+WebUI.closeBrowser()
+
