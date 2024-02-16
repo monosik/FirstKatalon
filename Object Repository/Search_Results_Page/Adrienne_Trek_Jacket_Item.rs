@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Adrienne_Trek_Jacket_Item</name>
+   <tag></tag>
+   <elementGuidId>3098dda3-8fad-41b2-b172-9eca60f75ed2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li/div/div/strong/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.product-item-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4b750db7-8851-427d-b896-73e8b46ec945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-item-link</value>
+      <webElementGuid>d1ebca1e-61a4-41f0-8d39-025156b67fb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://magento.softwaretestingboard.com/adrienne-trek-jacket.html</value>
+      <webElementGuid>d26d0394-ab15-4d1c-b431-90d7547278dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Adrienne Trek Jacket </value>
+      <webElementGuid>5f4eb8f5-e13e-40b6-828c-f8801377423d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;search results&quot;]/div[@class=&quot;products wrapper grid products-grid&quot;]/ol[@class=&quot;products list items product-items&quot;]/li[@class=&quot;item product product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product details product-item-details&quot;]/strong[@class=&quot;product name product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
+      <webElementGuid>4e367b92-99e6-41b9-b394-e230cc97f91c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li/div/div/strong/a</value>
+      <webElementGuid>cd9cb147-9b08-4555-ac85-cea9cb062a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Adrienne Trek Jacket')]</value>
+      <webElementGuid>6c07943d-30fd-4a20-942f-dbc865a935ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://magento.softwaretestingboard.com/adrienne-trek-jacket.html')])[2]</value>
+      <webElementGuid>dc321e8f-3147-431c-977c-ddb73abe6371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong/a</value>
+      <webElementGuid>ae8464c3-bb83-49d0-9330-17cf73c4a455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://magento.softwaretestingboard.com/adrienne-trek-jacket.html' and (text() = '
+Adrienne Trek Jacket ' or . = '
+Adrienne Trek Jacket ')]</value>
+      <webElementGuid>3660ae8b-5dcc-44d1-a91b-9ec5817300de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

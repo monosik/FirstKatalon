@@ -17,5 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SearchAnItem'), [('items') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('https://magento.softwaretestingboard.com/')
 
+CustomKeywords.'com.ea.utilities.SearchItem.searchItem'('Jacket')
+
+WebUI.click(findTestObject('Object Repository/Search_Results_Page/Adrienne_Trek_Jacket_Item'))
+
+String actualItemResult = WebUI.getText(findTestObject('Object Repository/Detail_Item_Page/Product_Title_Text'))
+String expectedItemResult = "Adrienne Trek Jacket"
+WebUI.verifyMatch(actualItemResult, expectedItemResult, false)
+
+String actualStatusResult = WebUI.getText(findTestObject('Object Repository/Detail_Item_Page/Stock_Status_Text'))
+List expectedStatusResult = ["IN STOCK", "OUT OF STOCK"]
+if (WebUI.verifyMatch(actualStatusResult, expectedStatusResult[0], false)) {
+    // Status is "IN STOCK"
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Detail_Item_Page/Add_To_Cart_Button'))
+} else {
+    // Status is "OUT OF STOCK"
+    WebUI.verifyElementNotClickable(findTestObject('Object Repository/Detail_Item_Page/Add_To_Cart_Button'))
+}
+
+WebUI.closeBrowser()

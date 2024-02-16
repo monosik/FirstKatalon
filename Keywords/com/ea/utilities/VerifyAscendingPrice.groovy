@@ -40,7 +40,7 @@ public class VerifyAscendingPrice {
 		}
 		println PriceTextValues
 
-		for (def i in 0..(PriceTextValues.size() - 2)) {
+		for (int i = 0; i < PriceTextValues.size() - 1; i++) {
 			def currentPrice = PriceTextValues[i]
 			def nextPrice = PriceTextValues[i + 1]
 			if (currentPrice < nextPrice) {
