@@ -1,12 +1,26 @@
 {
-  "keywordFileContentHash": "F81E741705D3A8E154C2DD0B50F20CEB",
+  "keywordFileContentHash": "0F254EB80EAE8F079ECC84D61BE4F725",
   "keywordClasses": [
     {
       "name": "com.ea.utilities.VerifyItemSearch",
       "keywordMethods": [
         {
           "name": "verifyItemSearch",
-          "parameters": [],
+          "parameters": [
+            {
+              "name": "expectedResult",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         }
       ]

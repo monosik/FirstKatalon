@@ -17,27 +17,32 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
 import internal.GlobalVariable
+import java.util.ArrayList
+import java.util.Collections
 
 public class VerifyItemSearch {
 	@Keyword
-	def verifyItemSearch() {
+	def verifyItemSearch(String expectedResult){
 
-		String elements = WebUI.getText(findTestObject('Object Repository/Search_Results_Page/Product_Text'))
+		TestObject Item = findTestObject('Object Repository/Search_Results_Page/Product_Text')
 
-		println('Jacket item: ' + elements)
+		List<WebElement> ItemElements = WebUI.findWebElements(Item, 10)
+		println ItemElements
 
-		String fullText = elements
+		List<String> ItemTextValues = []
+		for (WebElement itemElement in ItemElements) {
+			String itemText = itemElement.getText().trim()
+			String[] itemWords = itemText.split(" ") // Split by comma
+			String actualText = itemWords[itemWords.size() - 1].trim() // Trim any extra spaces
+			ItemTextValues.add(actualText)
+		}
+		println ItemTextValues
 
-		String[] parts = fullText.split(' ')
-
-		String actual_result = parts[(parts.length - 1)]
-
-		println('Actual text: ' + actual_result)
-
-		String expected_result = 'Jacket'
-
-		WebUI.verifyMatch(actual_result, expected_result, false)
+		for (String actualResult in ItemTextValues) {
+			WebUI.verifyMatch(actualResult, expectedResult, false)
+		}
 	}
 }

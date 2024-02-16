@@ -22,6 +22,7 @@ WebUI.openBrowser('https://magento.softwaretestingboard.com/')
 
 CustomKeywords.'com.ea.utilities.SearchItem.searchItem'('Jacket')
 
-CustomKeywords.'com.ea.utilities.VerifyItemSearch.verifyItemSearch'()
+CustomKeywords.'com.ea.utilities.VerifyItemSearch.verifyItemSearch'('Jacket')
 
 WebUI.closeBrowser()
+
