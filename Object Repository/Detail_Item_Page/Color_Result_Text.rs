@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Color_Text</name>
+   <name>Color_Result_Text</name>
    <tag></tag>
    <elementGuidId>91bf97da-1cb8-4f96-8bbe-b28faf5ebecc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='option-label-color-93']</value>
+         <value>//span[text()=&quot;Color&quot;]//following::span[text()=&quot;Orange&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a9ebdce0-1e65-43c3-bf73-d002861825a6</webElementGuid>
+      <webElementGuid>f18886be-95b8-4817-a27c-b64001fe1c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>option-label-color-93</value>
-      <webElementGuid>b2a77d6f-1f9c-482c-8a6f-9c10723d6ab1</webElementGuid>
+      <webElementGuid>53b82436-23ef-4ab6-a52c-a38d4e3b2885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swatch-attribute-label</value>
-      <webElementGuid>6a1cad13-9f43-4f50-b123-700b146bd0a0</webElementGuid>
+      <webElementGuid>75c24337-e2fb-43ed-991a-73653caa41e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Color</value>
-      <webElementGuid>302452db-93e6-41b1-991e-9eb81f4def77</webElementGuid>
+      <webElementGuid>6a4c17f1-fb20-4f22-97bc-c68555e8b913</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;option-label-color-93&quot;)</value>
-      <webElementGuid>f44c9548-4bcc-43ef-aebd-1413ff975e8e</webElementGuid>
+      <webElementGuid>345fa076-096b-4345-91a8-41e4e7dca248</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='option-label-color-93']</value>
-      <webElementGuid>9a56d7af-fdb7-46c9-b62a-c67895b28842</webElementGuid>
+      <webElementGuid>5dff1bec-24a1-4267-9c13-b2c013d12f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='product-options-wrapper']/div/div/div[2]/span</value>
-      <webElementGuid>a4cdafa9-17c5-48ed-b61e-1a52f64bc6db</webElementGuid>
+      <webElementGuid>4b535b9c-7a28-4b96-a30b-bd73893f401a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/span</value>
-      <webElementGuid>ca54e0f1-ea47-48d9-862c-f01fbc61a668</webElementGuid>
+      <webElementGuid>b4ff1092-3f45-4cb3-8c06-b697488175d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'option-label-color-93' and (text() = 'Color' or . = 'Color')]</value>
-      <webElementGuid>73c25555-e9c5-4c72-a24e-93023358864b</webElementGuid>
+      <webElementGuid>0553bd88-b462-4379-b0ea-e99ee0783579</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
