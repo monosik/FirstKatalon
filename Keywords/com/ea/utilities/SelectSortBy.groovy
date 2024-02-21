@@ -23,7 +23,7 @@ public class SelectSortBy {
 	@Keyword
 	def selectSortBy(String value) {
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/label_Sort By'), 5)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Search_Results_Page/label_Sort'), 5)
 
 		WebUI.click(findTestObject('Object Repository/Search_Results_Page/Sort_Select'))
 		if (value == 'Price') {

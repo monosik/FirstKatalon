@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Color_Option</name>
+   <name>XS_Size_Option</name>
    <tag></tag>
-   <elementGuidId>bb5a435e-4814-4926-98ac-bdd77bea378e</elementGuidId>
+   <elementGuidId>2243df78-24c6-4f7a-875a-8ae5a7372f59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='option-label-color-93-item-56']</value>
+         <value>//div[@option-label='XS']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#option-label-color-93-item-56</value>
+         <value>#option-label-size-143-item-166</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>aa50c2ef-3b6e-4316-a90a-c93dd2274216</webElementGuid>
+      <webElementGuid>57028390-1cca-4c7f-b97c-537106a6982b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>swatch-option color</value>
-      <webElementGuid>1b57f3af-ffd2-475d-9792-b4b6ebd80713</webElementGuid>
+      <value>swatch-option text</value>
+      <webElementGuid>eb75e5c2-d567-4d72-998b-bc840ff4b4e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>option-label-color-93-item-56</value>
-      <webElementGuid>51f9f8f9-8741-4f56-924a-e459513fb3ae</webElementGuid>
+      <value>option-label-size-143-item-166</value>
+      <webElementGuid>d5a600cf-70ee-467a-a2cc-0a3a8543047c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>08fdafe8-6ebe-4f0b-929b-42e4e89d76b1</webElementGuid>
+      <value>0</value>
+      <webElementGuid>acf71c51-22fe-459b-a321-1aec503fffc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b8cc6314-ddd9-432f-b49b-cd1491b9bfa0</webElementGuid>
+      <webElementGuid>39969728-e233-479b-a47f-73ed675292e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>option-label-color-93</value>
-      <webElementGuid>12ef8513-18b0-4f27-8a8f-9f73f7eef33e</webElementGuid>
+      <value>option-label-size-143</value>
+      <webElementGuid>b57320c9-dfb0-4761-b7ef-99ba18b07fb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,47 +70,47 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>91ee5ee9-5991-474e-9014-b61a297b0aa1</webElementGuid>
+      <webElementGuid>72559c2d-142a-441e-99c3-3114ff63b9c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>option-type</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>b3f967f1-2efc-4c9b-b931-74a5ca63651d</webElementGuid>
+      <value>0</value>
+      <webElementGuid>ebdef2c8-2abd-47dd-aad5-667ba10cd955</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>option-id</name>
       <type>Main</type>
-      <value>56</value>
-      <webElementGuid>76ccd3dd-08a8-4517-adfb-a7c6d9f471bf</webElementGuid>
+      <value>166</value>
+      <webElementGuid>f868aaa7-f394-4200-a9fd-b21962f394a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>option-label</name>
       <type>Main</type>
-      <value>Orange</value>
-      <webElementGuid>be55bf7c-b97c-4ece-be72-017d5b2f802e</webElementGuid>
+      <value>XS</value>
+      <webElementGuid>d7a1411a-e3f8-44d0-9d08-1d21c6581125</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Orange</value>
-      <webElementGuid>25f9d3b5-0c36-423d-b9c6-279da5571fcb</webElementGuid>
+      <value>XS</value>
+      <webElementGuid>2a8ff9f2-7f73-4189-bf7b-09a23f8fe880</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>option-tooltip-value</name>
       <type>Main</type>
-      <value>#eb6703</value>
-      <webElementGuid>394bb353-741f-4f83-b8fa-1232c9833da1</webElementGuid>
+      <value>XS</value>
+      <webElementGuid>83b6fc81-8da9-4314-803c-155db7b58292</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>09f0a46a-17f1-4a09-9c22-e62c74082083</webElementGuid>
+      <webElementGuid>431d9b2d-296f-438e-96cb-8f7320074950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>thumb-width</name>
       <type>Main</type>
       <value>110</value>
-      <webElementGuid>2d28e106-6d41-4171-ab8b-ae0be1135bee</webElementGuid>
+      <webElementGuid>14d77145-8a43-418a-a0d7-62a3c1485f19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -134,46 +134,54 @@
       <name>thumb-height</name>
       <type>Main</type>
       <value>90</value>
-      <webElementGuid>5a8f536c-0291-4c92-83db-3c2f595228f4</webElementGuid>
+      <webElementGuid>763a0bab-6de2-4c5b-a006-d9b2f76b0e17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>XS</value>
+      <webElementGuid>a87b02d8-fcc0-46d0-bf92-3a17f9fb3536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;option-label-color-93-item-56&quot;)</value>
-      <webElementGuid>40ab0d2f-c0b6-4f5a-9a4c-ec35f219c7b9</webElementGuid>
+      <value>id(&quot;option-label-size-143-item-166&quot;)</value>
+      <webElementGuid>d54c5edb-3305-496b-9e3e-19707802507e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='option-label-color-93-item-56']</value>
-      <webElementGuid>2049aae6-dfbf-4c45-b60a-52ffd0291fe1</webElementGuid>
+      <value>//div[@id='option-label-size-143-item-166']</value>
+      <webElementGuid>b29994a6-6918-4782-8b12-cae37432813c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='product-options-wrapper']/div/div/div[2]/div/div[2]</value>
-      <webElementGuid>2abeb4d7-0ae4-4ab9-9492-afd5a535f2cf</webElementGuid>
+      <value>//div[@id='product-options-wrapper']/div/div/div/div/div</value>
+      <webElementGuid>d4bc86cc-b1d2-4e41-8a32-186fa97b41c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div/div[2]/div/div[2]</value>
-      <webElementGuid>ac3ca31c-ba36-43b5-b7a5-fd9b8264d025</webElementGuid>
+      <value>//form/div/div/div/div/div/div</value>
+      <webElementGuid>322e8b56-be20-4309-8a09-7cdfd3915628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'option-label-color-93-item-56']</value>
-      <webElementGuid>f9fa282b-be28-44a6-8415-ec92bcca0303</webElementGuid>
+      <value>//div[@id = 'option-label-size-143-item-166' and (text() = 'XS' or . = 'XS')]</value>
+      <webElementGuid>24f8410a-3e23-492f-a1a1-171fd21d39f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Sort By</name>
+   <name>Size_Result_Text</name>
    <tag></tag>
-   <elementGuidId>a8405726-c52d-4fe3-80dd-514a0b99e5fb</elementGuidId>
+   <elementGuidId>c52f8d79-65a8-42b3-bd04-f69a7b2969f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label.sorter-label</value>
+         <key>XPATH</key>
+         <value>//span[text()=&quot;Size&quot;]//following::span[text()=&quot;XS&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='maincontent']/div[3]/div/div[3]/div/div[4]/label</value>
+         <key>CSS</key>
+         <value>#option-label-size-143</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,63 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>6ef294d9-0034-4173-aa70-0aed82e0bfa9</webElementGuid>
+      <value>span</value>
+      <webElementGuid>294dd3eb-d738-4167-8367-424e492c8790</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>option-label-size-143</value>
+      <webElementGuid>dae8af31-3ff9-4dd2-bc60-ee78f2c46e13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorter-label</value>
-      <webElementGuid>d8ecff79-fcd4-4d90-aa6d-eaedc48b5a4b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>sorter</value>
-      <webElementGuid>ba6da58d-f07e-418c-b256-86a638e365c1</webElementGuid>
+      <value>swatch-attribute-label</value>
+      <webElementGuid>1abb7fd3-1b83-48a1-a205-7a3336f5cfc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sort By</value>
-      <webElementGuid>9f7f8f40-912f-4fb3-9cfa-3bc1a85ac558</webElementGuid>
+      <value>Size</value>
+      <webElementGuid>cb4517fa-7518-4d89-a80a-3a5fa9de0a4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;search results&quot;]/div[@class=&quot;toolbar toolbar-products&quot;]/div[@class=&quot;toolbar-sorter sorter&quot;]/label[@class=&quot;sorter-label&quot;]</value>
-      <webElementGuid>b2282694-e84a-42de-8a26-1a8dd146bb77</webElementGuid>
+      <value>id(&quot;option-label-size-143&quot;)</value>
+      <webElementGuid>d16e95ee-5ff9-40f9-81a5-a94a4ce1e65b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='option-label-size-143']</value>
+      <webElementGuid>be04546e-045b-4420-9f08-17d50b1e270f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='maincontent']/div[3]/div/div[3]/div/div[4]/label</value>
-      <webElementGuid>3ed1a5bc-0c00-45be-b484-d6ad9038cd9e</webElementGuid>
+      <value>//div[@id='product-options-wrapper']/div/div/div/span</value>
+      <webElementGuid>095b159f-503d-4e44-9d80-05981fe77ee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/label</value>
-      <webElementGuid>694f12a3-598e-4329-baf7-c06e1597937f</webElementGuid>
+      <value>//form/div/div/div/div/span</value>
+      <webElementGuid>88c9ce72-2860-4703-89ab-2c1d9e16859b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Sort By' or . = 'Sort By')]</value>
-      <webElementGuid>2b7cb840-e2c9-49d7-b360-f6c07dc9f8f5</webElementGuid>
+      <value>//span[@id = 'option-label-size-143' and (text() = 'Size' or . = 'Size')]</value>
+      <webElementGuid>1b61f6fc-6b92-4377-b697-00dd28e0d96d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
