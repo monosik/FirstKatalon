@@ -21,11 +21,11 @@ import internal.GlobalVariable
 
 public class SearchItem {
 	@Keyword
-	def searchItem(String value) {
+	def searchItem(String itemSearch) {
 
 		WebUI.waitForElementPresent(findTestObject('Home_Page/Search_Textbox'), 1)
 
-		WebUI.sendKeys(findTestObject('Home_Page/Search_Textbox'), value)
+		WebUI.sendKeys(findTestObject('Home_Page/Search_Textbox'), itemSearch)
 
 		WebUI.click(findTestObject('Object Repository/Home_Page/Search_Button'))
 	}

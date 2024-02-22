@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='maincontent']/div[3]/div/div[3]/div/div[4]/a</value>
+         <value>//a[@title=&quot;Set Ascending Direction&quot;][1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>53f8d4f5-6c3b-4402-a710-2daae486ae86</webElementGuid>
+      <webElementGuid>2911f003-8981-4c5f-8224-64829b4dae9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Set Ascending Direction</value>
-      <webElementGuid>82f3c07c-8ec1-41c6-8ea6-ec9f09d117cf</webElementGuid>
+      <webElementGuid>446066e0-e54c-4b7d-b430-2a044bfd79d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>bc841db8-fa8c-41af-aae9-20af4a57ba93</webElementGuid>
+      <webElementGuid>d175cef5-1803-4a86-9106-68cba2f4900f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>action sorter-action sort-desc</value>
-      <webElementGuid>921c63f7-0182-4f11-88b8-07c6508ddbe8</webElementGuid>
+      <webElementGuid>13daa516-f85f-4369-8dc0-57d8ad67fc23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-role</name>
       <type>Main</type>
       <value>direction-switcher</value>
-      <webElementGuid>ebd21e57-0d02-4dbd-8990-9461de4d1594</webElementGuid>
+      <webElementGuid>799673b2-9e91-43c7-8cd6-02e763900b11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-value</name>
       <type>Main</type>
       <value>asc</value>
-      <webElementGuid>f9b44ebe-0fea-481c-823a-8001647d8ac1</webElementGuid>
+      <webElementGuid>e5f7741f-b68e-4968-a67e-7c96e769f624</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <value>
 Set Ascending Direction
 </value>
-      <webElementGuid>12152d45-1682-48f8-820f-4e5cb6686170</webElementGuid>
+      <webElementGuid>e038372f-f2bc-4ad2-a09d-b18cee830843</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@ Set Ascending Direction
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;search results&quot;]/div[@class=&quot;toolbar toolbar-products&quot;]/div[@class=&quot;toolbar-sorter sorter&quot;]/a[@class=&quot;action sorter-action sort-desc&quot;]</value>
-      <webElementGuid>4edf4470-8218-4728-b50e-9fa2a85ba4fc</webElementGuid>
+      <webElementGuid>1f7bba9d-3b14-4e92-89ef-797475fa5f2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -88,7 +88,7 @@ Set Ascending Direction
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='maincontent']/div[3]/div/div[3]/div/div[4]/a</value>
-      <webElementGuid>437b9976-00c5-4ba9-99d0-9d8a7fca1535</webElementGuid>
+      <webElementGuid>5f38afdf-e610-4c4f-82af-fe29696b49fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@ Set Ascending Direction
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>b3de745a-e491-4a80-9389-31908354b36c</webElementGuid>
+      <webElementGuid>2b223d26-26bd-4f0f-8544-0dbc9f827e1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@ Set Ascending Direction
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a</value>
-      <webElementGuid>d77f0e91-abb1-4dd1-86a2-b86e650a33a6</webElementGuid>
+      <webElementGuid>fc791b8c-d43c-45ae-9b82-763a6d589cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@ Set Ascending Direction
 ' or . = '
 Set Ascending Direction
 ')]</value>
-      <webElementGuid>8e368182-6058-4e19-942d-24ad0ae6f79f</webElementGuid>
+      <webElementGuid>4a049e80-bef5-41bb-8dda-5474fa7ea4a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

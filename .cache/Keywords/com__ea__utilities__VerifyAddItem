@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "22166C3D76107212A462DDECDD824E58",
+  "keywordFileContentHash": "CBB57AFFCF6EEE88C77947385AF5C86E",
   "keywordClasses": [
     {
-      "name": "com.ea.utilities.SearchItem",
+      "name": "com.ea.utilities.VerifyAddItem",
       "keywordMethods": [
         {
-          "name": "searchItem",
+          "name": "verifyAddItem",
           "parameters": [
             {
-              "name": "itemSearch",
+              "name": "expectedItemResult",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -20,10 +20,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

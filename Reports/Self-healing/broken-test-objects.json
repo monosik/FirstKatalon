@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search_Results_Page/Adrienne_Trek_Jacket_Item",
+      "brokenLocator": "//a[contains(text(), \u0027${desiredText}\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//main[@id\u003d\u0027maincontent\u0027]/div[3]/div/div[3]/div[2]/ol/li/div/div/strong/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Search_Results_Page/Adrienne_Trek_Jacket_Item_idRelative.png"
+    }
+  ]
 }

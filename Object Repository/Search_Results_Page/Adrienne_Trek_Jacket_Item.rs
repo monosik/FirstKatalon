@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li/div/div/strong/a</value>
+         <value>//a[contains(text(),'Adrienne Trek Jacket')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4b750db7-8851-427d-b896-73e8b46ec945</webElementGuid>
+      <webElementGuid>f069ef9c-986b-404f-b7fa-90e5393b862e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>product-item-link</value>
-      <webElementGuid>d1ebca1e-61a4-41f0-8d39-025156b67fb5</webElementGuid>
+      <webElementGuid>74ace7c1-de68-47ca-90f5-6d399ec4b4d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://magento.softwaretestingboard.com/adrienne-trek-jacket.html</value>
-      <webElementGuid>d26d0394-ab15-4d1c-b431-90d7547278dd</webElementGuid>
+      <webElementGuid>988fa035-a28f-479d-b761-e29028903455</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <type>Main</type>
       <value>
 Adrienne Trek Jacket </value>
-      <webElementGuid>5f4eb8f5-e13e-40b6-828c-f8801377423d</webElementGuid>
+      <webElementGuid>44245ce2-4f04-4371-a34f-fbb9c00ff40e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@ Adrienne Trek Jacket </value>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;search results&quot;]/div[@class=&quot;products wrapper grid products-grid&quot;]/ol[@class=&quot;products list items product-items&quot;]/li[@class=&quot;item product product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product details product-item-details&quot;]/strong[@class=&quot;product name product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
-      <webElementGuid>4e367b92-99e6-41b9-b394-e230cc97f91c</webElementGuid>
+      <webElementGuid>321278cd-e3c6-40d7-92c9-0d9ec3b2022b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@ Adrienne Trek Jacket </value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='maincontent']/div[3]/div/div[3]/div[2]/ol/li/div/div/strong/a</value>
-      <webElementGuid>cd9cb147-9b08-4555-ac85-cea9cb062a79</webElementGuid>
+      <webElementGuid>e27c9836-d104-40b9-9167-a9beb51a1780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@ Adrienne Trek Jacket </value>
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Adrienne Trek Jacket')]</value>
-      <webElementGuid>6c07943d-30fd-4a20-942f-dbc865a935ed</webElementGuid>
+      <webElementGuid>6617c19c-deb3-45de-bfe9-d2137f839752</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@ Adrienne Trek Jacket </value>
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://magento.softwaretestingboard.com/adrienne-trek-jacket.html')])[2]</value>
-      <webElementGuid>dc321e8f-3147-431c-977c-ddb73abe6371</webElementGuid>
+      <webElementGuid>473a1ec5-d3eb-45eb-8f94-579731e15f48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@ Adrienne Trek Jacket </value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//strong/a</value>
-      <webElementGuid>ae8464c3-bb83-49d0-9330-17cf73c4a455</webElementGuid>
+      <webElementGuid>d93118e7-7b14-4eb5-b081-838805ff476c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@ Adrienne Trek Jacket </value>
       <value>//a[@href = 'https://magento.softwaretestingboard.com/adrienne-trek-jacket.html' and (text() = '
 Adrienne Trek Jacket ' or . = '
 Adrienne Trek Jacket ')]</value>
-      <webElementGuid>3660ae8b-5dcc-44d1-a91b-9ec5817300de</webElementGuid>
+      <webElementGuid>0958b280-a2eb-44ba-88ae-6bf3dc1ef3ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

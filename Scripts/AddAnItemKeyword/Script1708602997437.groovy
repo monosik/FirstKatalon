@@ -25,5 +25,3 @@ WebUI.click(findTestObject('Object Repository/Search_Results_Page/Adrienne_Trek_
 
 CustomKeywords.'com.ea.utilities.VerifyAddItem.verifyAddItem'('Adrienne Trek Jacket')
 
-WebUI.closeBrowser()
-
