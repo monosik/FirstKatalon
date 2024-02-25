@@ -6,12 +6,12 @@
    <elementGuidId>4a5543fd-c520-4e83-b4c5-0b51ec545733</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class=&quot;price&quot;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.price</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()=&quot;See Details&quot;]/following::span[@class=&quot;price&quot;][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1642a413-4dc2-440f-8944-479ecf0f415d</webElementGuid>
+      <webElementGuid>08b8f974-b58d-4727-989a-4eca2b5cc93d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>price</value>
-      <webElementGuid>f289617b-666f-4ec5-ba90-90109f18169e</webElementGuid>
+      <webElementGuid>0de95d0d-5f7d-497b-9f3d-aaa59a44d218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$99.00</value>
-      <webElementGuid>606202a8-46f1-4d1c-a777-194ca921371e</webElementGuid>
+      <webElementGuid>a094d484-493a-4f08-bfb3-dd6f0e1e694f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;product-price-334&quot;)/span[@class=&quot;price&quot;]</value>
-      <webElementGuid>c5b5823d-dd8e-4353-bba1-3091f0ee338b</webElementGuid>
+      <webElementGuid>057aabc5-99bd-471a-9d53-6e14b15ce55f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='product-price-334']/span</value>
-      <webElementGuid>e98e30e6-e739-43d8-92f8-3d7b8a3ba61a</webElementGuid>
+      <webElementGuid>fa24b9a2-4632-4ff6-bff9-9d706e4d1dd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span[2]/span</value>
-      <webElementGuid>0f4f3cb2-ec5d-40cd-889d-6e90b571a716</webElementGuid>
+      <webElementGuid>6d3f6c8b-16ea-4d86-b8e9-0a7177679498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '$99.00' or . = '$99.00')]</value>
-      <webElementGuid>932bc6a2-dd30-444a-9d87-20d5e0c6c09c</webElementGuid>
+      <webElementGuid>f57b96e9-b350-4f60-bd40-1e5693b75170</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
